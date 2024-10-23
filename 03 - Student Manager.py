@@ -8,6 +8,7 @@ students = []               # This list will store every dictionary record of ea
 studentnames = []           # This list will store every name of each student for the dropbox
 f1 = []                     # This list will store everything in the text file for dissection
 
+# Functions
 def openFile():             # A function that will sort the text file content into reusable and mutable versions.
     
     students.clear()        # .clear() is used to remove everything inside a list type variable
