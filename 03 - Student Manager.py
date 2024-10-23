@@ -122,7 +122,7 @@ def highestScore(txtarea):          # A function that will find the student's in
                         students[i]["PercentTotal"], students[i]["Grade"], txtarea)
 
 
-def lowestScore(txtarea):            # A function that will find the student's info with the highest score
+def lowestScore(txtarea):            # A function that will find the student's info with the lowest score
     
     txtarea.delete("1.0", "end")
     
