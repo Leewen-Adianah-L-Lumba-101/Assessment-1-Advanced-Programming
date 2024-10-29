@@ -1,10 +1,6 @@
 from tkinter import *
 from tkinter import ttk
 
-"""
-UPDATE
-"""
-
 highscore = 0.0             
 lowscore = 100.0            
 students = []              
@@ -422,7 +418,7 @@ def updateMenu2(name):
     label.place(relx = 0.25, rely = 0.25, anchor = W)
     prompt = Entry(mainwindow, textvariable = newname, width = 20, font = "Corbel 13", bd=3)
     prompt.place(relx = 0.6, rely = 0.25, anchor = CENTER)
-    prompt.insert(0,idno) 
+    prompt.insert(0,name) 
     # insert is a function thats allowed to be used for entry banks in order to fill them
     # with a default value (string/integer/whatever)
 
@@ -430,7 +426,7 @@ def updateMenu2(name):
     label2.place(relx = 0.25, rely = 0.35, anchor = W)
     prompt2 = Entry(mainwindow, textvariable = newidnum, width = 20, font = "Corbel 13", bd=3)
     prompt2.place(relx = 0.6, rely = 0.35, anchor = CENTER)
-    prompt2.insert(0,name)
+    prompt2.insert(0,idno)
     
     label3 = Label(mainwindow, text = "Course Marks 1: ", font = "Corbel 13", bg = "#141211", fg = "white")
     label3.place(relx = 0.25, rely = 0.45, anchor = W)
