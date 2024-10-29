@@ -12,7 +12,6 @@ mainwindow.geometry("700x700")
 mainwindow.resizable(0,0)
 mainwindow.config(bg = "#141211")
 
-
 options = ['Ascending', 'Descending']
 
 def deleteItems():
